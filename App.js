@@ -12,6 +12,8 @@ import Explore from './Screens/Explore'
 
 const BottomNavigator = createBottomTabNavigator();
 
+//options of bottom tab menu
+//icons not properly implemented because of no available assets, used plain images instead
 const Tabs = () => {
   return (
     <BottomNavigator.Navigator tabBarOptions={{
@@ -37,7 +39,6 @@ const Tabs = () => {
 
 export default function App() {
   return (
-    
     <LinearGradient colors={['#0F0F3D', '#1C1C7A']} style={{flex: 1}}>
       <StatusBar />
         <SafeAreaView style={{flex: 1}}>

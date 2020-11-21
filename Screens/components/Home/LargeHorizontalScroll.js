@@ -2,6 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, ScrollView } from 'react-native';
 import LargeImageItem from './LargeImageItem'
 
+//horizontal scroll for large items
 const LargeHorizontalScroll=() =>{
   return (
     <View>

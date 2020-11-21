@@ -2,6 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, ScrollView, Image } from 'react-native';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 
+//small clickable image items
 const SmallImageItem = (props) => {
   return(
     <TouchableOpacity>

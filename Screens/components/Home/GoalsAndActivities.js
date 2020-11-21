@@ -1,5 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, ScrollView } from 'react-native';
+
+//item that shows the counters for goals and activities
 const GoalsAndActivities=() =>{
   return (
     <View>

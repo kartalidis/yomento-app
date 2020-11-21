@@ -2,6 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, ScrollView } from 'react-native';
 import SmallImageItem from './SmallImageItem'
 
+//horizontal scroll for small items
 const SmallHorizontalScroll=() =>{
   return (
     <View>

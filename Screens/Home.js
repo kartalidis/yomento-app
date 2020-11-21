@@ -8,6 +8,8 @@ import LargeHorizontalScroll from './components/Home/LargeHorizontalScroll';
 import GoalsAndActivities from './components/Home/GoalsAndActivities';
 import Notifications from './components/Home/Notifications';
 
+//home screen of the app, including examples of clickable notification bell, 
+//progress inidicators and horizontal scroll menus with images
 const Home=() =>{
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor:'transparent' }}>
